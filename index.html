@@ -3,51 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <title>Bekzat CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="/2022-09-20-185132.jpg" alt="This is my photo" width="200">
-    <h1>Bekzat Abdilamit uulu</h1>
-    <p><em> I'm a student</em></p>
-    <p>I love ride a bike</p>
-    <hr>
-    <h2>My hobby</h2>
-    <ul>
-        <ol>
-        <li>Drawing</li>
-        <li>Coding</li>
-    </ol>
-    </ul>
-    <h2>I work</h2>
-    <table border="1">
-        <tr>
-            <th>Company</th>
-            <th>Position</th>
-            <th>Year</th>
-        </tr>
-    <tr>
-        <td>Google company</td>
-        <td>Web developer</td>
-        <td>2020-2022</td>
-    </tr>
-    <tr>
-        <td>Yandex</td>
-        <td>Python backend developer</td>
-        <td>2022-2024</td>
-    </tr>
-    </table>
-    <h2>Feedback</h2>
-    <form>
-        <label for="name">What's your name?</label>
-        <input type="text" id="name" placeholder="write there...">
-        <br>
-        <label for="email">E-mail</label>
-        <input type="email" id="email" placeholder="there write you e-mail address...">
-        <br>
-        <label for="text-area1">Message</label>
-        <br>
-        <textarea id="text-area1" cols="50" rows="5"></textarea>
-        <br>
-        <input type="submit" value="connect">
-    </form>
+    <div class="container">
+        <div class="info">
+            <img src="/" alt="This is my photo" width="200" class="avatar">
+            <div class="info-text">
+              <h1>Абдиламит уулу Бекзат</h1>
+              <h3>Backend-разработчик</h3>
+              <p>Кыргызстан г.Бишкек</p>
+              <p>Возраст: 22 лет</p>
+              <h4>КОНТАКТЫ</h4>
+              <a href="mailto:bekzat.abdilamituulu@mail.ru">e-mail</a>
+              <a href="tel:+996995221099">phone</a>
+          </div>
+        </div>
+            <div class="card bg-yellow">
+            <h2>ОПЫТ РАБОТЫ</h2>
+            <table class="table">
+                <tr>
+                    <td>Яндекс</td>
+                    <td>Веб-разработчик</td>
+                    <td>2022-2023</td>
+                </tr>
+                <tr>
+                    <td>Youtube</td>
+                    <td>Backend-разработчик</td>
+                    <td>2023-2024</td>
+                </tr>
+                <tr>
+                    <td>Instagram</td>
+                    <td>Python-разработчик</td>
+                    <td>2024-now</td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="card bg-yellow">
+        <h2>ОБРАЗОВАНИЕ</h2>
+            <p> Кыргызский государственный университет геологии, горного дела и освоения природных ресурсов имени академика Усенгазы Асаналиева
+                <br>
+                Кафедра: Информационные технологии и математическое моделирование им.акад. А.Жайнакова 
+            </p>
+        <h2>КУРСЫ</h2>
+        <p>There write your passed courses</p>
+        </div>
+        <div class="card bg-yellow">
+        <h2>ХОББИ</h2>
+        <p>Рисовать, читать книги</p>
+        </div>
+        <div class="card bg-yellow">
+        <h2>О СЕБЕ</h2>
+        <p>Что то написать надо тут... </p>
+        </div>
+        <div class="card bg-yellow">
+        <h2>ЯЗЫКИ</h2>
+        <p>Английский B1</p>
+        <p>Турецкий C1-продвинутый</p>
+        </div>
+
+        <div class="card bg-yellow">
+        <h2>НАВЫКИ</h2>
+        <ol class="list">
+            <li>Python more 1+ year</li>
+            <li>Framework Django</li>
+            <li>PostgreSQL</li>
+            <li>Linux</li>
+            <li>HTML, CSS, Javascript</li>
+            <li>Git</li>
+        </ol>
+        </div>
+    </div>
 </body>
 </html>
